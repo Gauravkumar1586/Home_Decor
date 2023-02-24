@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Flownavbar></Flownavbar>
-    <Flowcrousel></Flowcrousel>
+    {/* <Flowcrousel></Flowcrousel> */}
     </>
   )
 }
