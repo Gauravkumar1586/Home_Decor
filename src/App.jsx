@@ -1,12 +1,16 @@
 import { useState } from 'react'
-
+import Flownavbar from './components/Navbar'
+import Flowcrousel from './components/crousel'
+import Flowfooter from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-  <h1>this is home page</h1>
+    <Flownavbar></Flownavbar>
+    <Flowcrousel></Flowcrousel>
+    <Flowfooter ></Flowfooter>
     </>
   )
 }
