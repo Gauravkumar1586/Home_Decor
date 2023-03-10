@@ -18,7 +18,7 @@ export default function Flownavbar(){
       alt="Flowbite Logo"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-      Furniture Mela
+        HOME DECOR
     </span>
   </Navbar.Brand>
   <div className="flex md:order-2">
@@ -38,7 +38,7 @@ export default function Flownavbar(){
       Home
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-      About
+      Products
     </Navbar.Link>
     <Navbar.Link href="/navbars">
       Services
@@ -48,6 +48,9 @@ export default function Flownavbar(){
     </Navbar.Link>
     <Navbar.Link href="/navbars">
       Contact
+    </Navbar.Link>
+    <Navbar.Link href="/navbars">
+      About
     </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>

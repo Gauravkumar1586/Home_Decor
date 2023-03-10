@@ -10,7 +10,7 @@ export default function Flowfooter(){
         href="https://flowbite.com"
         src="./images/logo.jpg"
         alt="Flowbite Logo"
-        name="Furnitur Mela"
+        name="HOME DECOR"
       />
       <Footer.LinkGroup>
         <Footer.Link href="#">
@@ -30,7 +30,7 @@ export default function Flowfooter(){
     <Footer.Divider />
     <Footer.Copyright
       href="#"
-      by="Furniture Mela™"
+      by="HOME DECOR™"
       year={2022}
     />
   </div>
