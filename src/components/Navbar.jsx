@@ -1,6 +1,7 @@
 
 import { Navbar } from "flowbite-react"
 import { Button } from "flowbite-react"
+import { Link } from "react-router-dom"
 
 
 export default function Flownavbar(){
@@ -22,10 +23,10 @@ export default function Flownavbar(){
     </span>
   </Navbar.Brand>
   <div className="flex md:order-2">
-    <Button >
+    <Button className="px-5 mr-4 bg-gray-600	background-color: rgb(75 85 99);">
       <span>Sign in</span>
     </Button>
-    <Button>
+    <Button className="px-5 mr-6 bg-gray-600	background-color: rgb(75 85 99);">
       <span>Log in</span>
     </Button>
     <Navbar.Toggle />
@@ -35,7 +36,7 @@ export default function Flownavbar(){
       href="/navbars"
       active={true}
     >
-      Home
+     <Link to="/home"> Home </Link>
     </Navbar.Link>
     <Navbar.Link href="/navbars">
       Products
@@ -50,7 +51,7 @@ export default function Flownavbar(){
       Contact
     </Navbar.Link>
     <Navbar.Link href="/navbars">
-      About
+      <Link to="/about"> About</Link>
     </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>

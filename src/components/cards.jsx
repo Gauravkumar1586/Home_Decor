@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 export default function Flowcards() {
   return (
     <>
-    <div className="flex justify-evenly flex-wrap xl:h-80 2xl:h-96">
+    <div className="flex justify-evenly flex-wrap xl:h-80 2xl:h-96 px-4 py-10">
       {/* 1card */}
       <div className="max-w-sm ">
         <Card imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg">
