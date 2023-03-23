@@ -10,7 +10,7 @@ export default function Flownavbar(){
      <Navbar
   fluid={true}
   rounded={true}
-  className="bg-gray-100"
+  className="bg-gray-100 bg-opacity-30"
 >
   <Navbar.Brand href="https://flowbite.com/">
     <img
@@ -18,7 +18,7 @@ export default function Flownavbar(){
       className="mr-3 h-6 sm:h-9"
       alt="Flowbite Logo"
     />
-    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    <span className="text-5xl self-center whitespace-nowrap text-xl font-semibold dark:text-white">
         HOME DECOR
     </span>
   </Navbar.Brand>
