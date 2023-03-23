@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import Flownavbar from './components/Navbar'
-import Flowcrousel from './components/crousel'
 import Flowfooter from './components/Footer'
-import Flowcards from './components/cards'
 import { Route ,Link , BrowserRouter , Routes } from 'react-router-dom'
 import About from './pages/about'
 import Home from './pages/home'
