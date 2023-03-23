@@ -72,7 +72,7 @@ export default function About(){
       <div className="mx-auto mr-1 max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-8xl font-bold tracking-tight text-black sm:text-8xl">Welcome</h2>
-          <p className="mt-6  text-lg text-4xl leading-8 text-black-900">
+          <p className="mt-6  text-lg text-4xl  leading-8 text-black-900 ">
           Furniture is material product already, it is artistic creation again, this is the furniture that people often say double characteristic.The type, quantity, function, form, style and production level of furniture and the possession situation at that time, still reflected the social life style of a country and region in a certain historical period, the level of social material civilization and historical and cultural characteristics.Furniture is a country or region in a certain historical period of social productivity development level of the symbol, is a certain way of life in miniature, is a certain cultural form of the show, so furniture condensed rich and profound social.The use makings of certain so called solid wood furniture is board of medium fiber-board, particleboard outside stick stick walnut skin or other wood skin, not be pure natural wood makes.
           </p>
         </div>
