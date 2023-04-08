@@ -4,6 +4,7 @@ import Flowfooter from './components/Footer'
 import { Route ,Link , BrowserRouter , Routes } from 'react-router-dom'
 import About from './pages/about'
 import Home from './pages/home'
+import Hero from './components/Hero'
 
 
 function App() {

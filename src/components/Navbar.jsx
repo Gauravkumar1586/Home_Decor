@@ -44,6 +44,9 @@ export default function Flownavbar() {
               label="Products"
               inline={true}
             >
+            <Dropdown.Item>
+                All
+              </Dropdown.Item>
               <Dropdown.Item>
                 Beds
               </Dropdown.Item>
