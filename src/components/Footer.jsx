@@ -1,4 +1,5 @@
-import { Footer } from "flowbite-react"
+import { Footer } from "flowbite-react";
+import {TbArmchair} from 'react-icons/tb';
 
 export default function Flowfooter(){
     return(
@@ -6,12 +7,7 @@ export default function Flowfooter(){
 <Footer container={true} className="mt-96 bg-opacity-30">
   <div className="w-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
-      <Footer.Brand
-        href="https://flowbite.com"
-        src="./images/logo.jpg"
-        alt="Flowbite Logo"
-        name="HOME DECOR"
-      />
+      <TbArmchair size='3rem'></TbArmchair>
       <Footer.LinkGroup>
         <Footer.Link href="#">
           About
