@@ -7,13 +7,20 @@ import {HiOutlineShoppingCart } from 'react-icons/hi';
 import {TbArmchair} from 'react-icons/tb';
 
 
+
 export default function Flownavbar() {
   
   {/*function for signin page */}
-  let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    let path = `/Signin`; 
-    navigate(path);
+  let navigate_signup = useNavigate(); 
+  const routeChange_signup = () =>{ 
+    let path = `/Signin`;
+    navigate_signup(path);
+  }
+  {/*function for login page */}
+  let navigate_login = useNavigate(); 
+  const routeChange_login = () =>{ 
+    let path = `/Login`;
+    navigate_login(path);
   }
 
   return (
@@ -31,10 +38,10 @@ export default function Flownavbar() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button className="px-5 mr-4 bg-gray-600	background-color: rgb(75 85 99);" onClick={routeChange}>
+          <Button className="px-5 mr-4 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_signup}>
             <span>Sign up</span>
           </Button>
-          <Button className="px-5 mr-6 bg-gray-600	background-color: rgb(75 85 99);">
+          <Button className="px-5 mr-6 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_login}>
             <span>Log in</span>
           </Button>
           <Navbar.Toggle />
@@ -47,32 +54,7 @@ export default function Flownavbar() {
             <Link to="/home"> Home </Link>
           </Navbar.Link>
           <Navbar.Link href="/navbars">
-            <Dropdown
-              label="Products"
-              inline={true}
-            >
-            <Dropdown.Item>
-                All
-              </Dropdown.Item>
-              <Dropdown.Item>
-                Beds
-              </Dropdown.Item>
-              <Dropdown.Item>
-                Chairs
-              </Dropdown.Item>
-              <Dropdown.Item>
-                Sofa
-              </Dropdown.Item>
-              <Dropdown.Item>
-                Single Sofa
-              </Dropdown.Item>
-              <DropdownItem>
-              Tables
-              </DropdownItem>
-              <DropdownItem>
-              Lights
-              </DropdownItem>
-            </Dropdown>
+            <Link to='/Gallery'>Gallery</Link> 
           </Navbar.Link>
           <Navbar.Link href="/navbars">
             Pricing

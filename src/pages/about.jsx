@@ -16,7 +16,7 @@ export default function About() {
   return (
     <>
 
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 " >
         <img
           src="./images/about_logo.jpg"
           alt=""
