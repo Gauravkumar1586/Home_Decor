@@ -1,15 +1,17 @@
 import Flowcards from "../components/home_cards";
 import Flowcrousel from "../components/crousel";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <>
       <Flowcrousel></Flowcrousel>
+      <Hero></Hero>
       <h1 className="text-6xl mt-4 text-center overscroll-auto">
         POPULAR ACROSS SITE
       </h1>
 
-      <div className="">
+      
         <div className="flex justify-evenly flex-wrap ">
           <Flowcards
             title=" Beds wiht super Quantity"
@@ -34,8 +36,7 @@ export default function Home() {
             imgurl="./images/sofas/s0.jpg"
             desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
           ></Flowcards>
-        </div>
-        <div className="flex justify-evenly flex-wrap ">
+                
         <Flowcards
           title="Tables"
           imgurl="./images/tables/t0.jpg"
@@ -48,7 +49,7 @@ export default function Home() {
           desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
         ></Flowcards>
         </div>
-      </div>
+      
     </>
   );
 }
