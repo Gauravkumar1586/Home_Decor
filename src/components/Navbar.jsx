@@ -12,7 +12,7 @@ export default function Flownavbar() {
   {/*function for signin page */}
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = `newPath`; 
+    let path = `/Signin`; 
     navigate(path);
   }
 
@@ -32,7 +32,7 @@ export default function Flownavbar() {
         </Navbar.Brand>
         <div className="flex md:order-2">
           <Button className="px-5 mr-4 bg-gray-600	background-color: rgb(75 85 99);" onClick={routeChange}>
-            <span>Sign in</span>
+            <span>Sign up</span>
           </Button>
           <Button className="px-5 mr-6 bg-gray-600	background-color: rgb(75 85 99);">
             <span>Log in</span>
