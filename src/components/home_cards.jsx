@@ -8,7 +8,7 @@ export default function Flowcards(props) {
 
       <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <img class="rounded-t-lg " src={props.imgurl} alt="" style={{minHeight:'200px' ,maxHeight:'200px'}} />
+          <img class="rounded-t-lg mx-auto " src={props.imgurl} alt="" style={{minHeight:'200px' ,maxHeight:'200px'}} />
         </a>
         <div class="p-5">
           <a href="#">
