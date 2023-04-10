@@ -56,12 +56,11 @@ export default function Flownavbar() {
           <Navbar.Link href="/navbars">
             <Link to='/Gallery'>Gallery</Link> 
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
-            Pricing
-          </Navbar.Link>
+          
           <Navbar.Link href="/navbars">
             <Link to="/Contact">Contact</Link>
           </Navbar.Link>
+          
           <Navbar.Link href="/navbars">
             <Link to="/about"> About</Link>
           </Navbar.Link>

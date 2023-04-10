@@ -8,7 +8,8 @@ import Contact from './pages/Contact'
 import Signin from './pages/Signin'
 import Login from './pages/Login'
 import Gallery from './pages/Gallery'
-import Beds from './pages/Beds'
+
+
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <Route path="/Signin" element={<Signin/>}></Route>
           <Route path="/Login" element={<Login/>}></Route>
           <Route path="/Gallery" element={<Gallery/>}></Route>
-          <Route path="/Beds" element={<Beds/>}></Route>
+          
         </Routes>
         <Flowfooter ></Flowfooter>
       </BrowserRouter>

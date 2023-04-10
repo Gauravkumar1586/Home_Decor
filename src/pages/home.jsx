@@ -1,4 +1,4 @@
-import Flowcards from "../components/home_cards";
+import Flowcards from "../components/cards";
 import Flowcrousel from "../components/crousel";
 import Hero from "../components/Hero";
 
@@ -16,37 +16,43 @@ export default function Home() {
           <Flowcards
             title=" Beds wiht super Quantity"
             imgurl="./images/beds/b0.jpg"
-            desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
+            desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
+            price="₹ 32000"
           ></Flowcards>
 
           <Flowcards
-            title="Best Quantity Wooden Chairs"
+            title=" Wooden Chairs"
             imgurl="./images/chairs/c1.jpg"
-            desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
+            desc=" Perfect combination of distinctiveness and versatility with our Accent Trunk made of solid reclaimed wood. "
+            price="₹ 5000"
           ></Flowcards>
 
           <Flowcards
             title="Single Set Sofa"
             imgurl="./images/single_sofas/ss1.jpg"
-            desc="  Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
+            desc=" This L-shaped pull-out sleeper sectional is ideal for adding a cozy, casual touch to spaces of all sorts."
+            price="₹ 8000"
           ></Flowcards>
 
           <Flowcards
             title="Big Sofas"
             imgurl="./images/sofas/s0.jpg"
-            desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
+            desc=" This L-shaped pull-out sleeper sectional is ideal for adding a cozy, casual touch to spaces of all sorts. "
+            price="₹ 35000"
           ></Flowcards>
                 
         <Flowcards
           title="Tables"
           imgurl="./images/tables/t0.jpg"
-          desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
+          desc=" This coffee table showcases a modern openwork frame with sophisticated dark hues. "
+          price="₹ 12000"
         ></Flowcards>
 
         <Flowcards
           title="Tables Lights"
           imgurl="./images/lights/l0.jpg"
-          desc=" Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. "
+          desc="Crafted from steel in a matte black finish, this chandelier features a  silhouette with an open-frame style. "
+          price="₹ 4000"
         ></Flowcards>
         </div>
       
