@@ -16,7 +16,7 @@ export default function About() {
   return (
     <>
 
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 " >
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 "  >
         <img
           src="./images/about_logo.jpg"
           alt=""
@@ -72,8 +72,8 @@ export default function About() {
         </svg>
         <div className="mx-auto mr-1 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-8xl font-bold tracking-tight text-black sm:text-8xl">Welcome</h2>
-            <p className="mb-6 text-xl font-normal text-black-900 lg:text-xl  dark:text-gray-400">
+            <h2 className="text-8xl font-bold tracking-tight text-gray-300 sm:text-8xl">Welcome</h2>
+            <p className="mb-6 text-xl font-normal text-gray-300 lg:text-xl  dark:text-gray-400">
               Furniture is material product already, it is artistic creation again, this is the furniture that people often say double characteristic.The type, quantity, function, form, style and production level of furniture and the possession situation at that time, still reflected the social life style of a country and region in a certain historical period, the level of social material civilization and historical and cultural characteristics.Furniture is a country or region in a certain historical period of social productivity development level of the symbol, is a certain way of life in miniature, is a certain cultural form of the show, so furniture condensed rich and profound social.The use makings of certain so called solid wood furniture is board of medium fiber-board, particleboard outside stick stick walnut skin or other wood skin, not be pure natural wood makes.
             </p>
           </div>
@@ -97,7 +97,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="" >
+      <div >
         <div className="">
           <h2 className="my-12 text-center mb-4 text-2xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">BRIEFING ABOUT HOME DECOR</span></h2>
