@@ -33,7 +33,7 @@ export default function Flownavbar() {
         <Navbar.Brand href="/home">
         {/*using react icons */}
           <TbArmchair size='3rem'></TbArmchair>
-          <span className="text-5xl self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span className=" font-mono text-5xl self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           HOME DECOR
           </span>
         </Navbar.Brand>
@@ -56,7 +56,10 @@ export default function Flownavbar() {
           <Navbar.Link href="/navbars">
             <Link to='/Gallery'>Gallery</Link> 
           </Navbar.Link>
+<<<<<<< HEAD
           
+=======
+>>>>>>> aa406a7ca46ece2a87c22088b0b84580ab9e10e1
           <Navbar.Link href="/navbars">
             <Link to="/Contact">Contact</Link>
           </Navbar.Link>
