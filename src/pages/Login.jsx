@@ -3,9 +3,9 @@ import React from 'react'
 const Login = () => {
     return (
         <>
-            <div className=' my-20 mx-12'>
-            <section class="bg-gray-100 dark:bg-gray-900 drop-shadow-2xl">
-                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+            <div className=' my-20 mx-12 '>
+            <section class="bg-gray-100 dark:bg-gray-900 drop-shadow-2xl bg-opacity-40">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 ">
                     <div class="flex flex-col justify-center">
                         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Login your account to Enjoy Shopping </h1>
                         <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">HOME DECOR is one of the leading Furniture Store Online located opposit to Idustrial Estate Kollakadavu view Furniture Gallery.</p>
@@ -16,7 +16,7 @@ const Login = () => {
                         </a>
                     </div>
                     <div>
-                        <div class="w-full lg:max-w-xl p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-gray-800">
+                        <div class="w-full lg:max-w-xl p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-gray-800 bg-opacity-20">
                             <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
                                 Log in to HOME DECOR
                             </h2>

@@ -14,7 +14,7 @@ export default function Home() {
       
         <div className="flex justify-evenly flex-wrap ">
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 32000"

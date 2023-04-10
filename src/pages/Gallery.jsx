@@ -22,7 +22,7 @@ const Gallery = () => {
       {furniturecategory == 0 &&
         <div className="flex justify-evenly flex-wrap ">
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 32000"
@@ -116,7 +116,7 @@ const Gallery = () => {
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b1.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 42000"
@@ -137,7 +137,7 @@ const Gallery = () => {
         ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b18.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 65000"
@@ -193,21 +193,21 @@ const Gallery = () => {
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b2.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 55000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b4.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 50000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b5.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 45000"
@@ -241,126 +241,126 @@ const Gallery = () => {
         <div className="flex justify-evenly flex-wrap ">
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 32000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b1.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 42000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b2.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 55000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b4.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 50000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b5.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 45000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b6.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 85000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b7.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 60000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b8.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 95000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b9.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 11000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b10.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 48000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Bedsy"
             imgurl="./images/beds/b11.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 55000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b12.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 75000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b13.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 45000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b14.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 98000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b15.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 35000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b16.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 45055"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b17.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 34000"
           ></Flowcards>
 
           <Flowcards
-            title=" Beds wiht super Quantity"
+            title="Good Quality Beds"
             imgurl="./images/beds/b18.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
             price="₹ 65000"
