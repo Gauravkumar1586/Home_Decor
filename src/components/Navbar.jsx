@@ -56,9 +56,14 @@ export default function Flownavbar() {
           <Navbar.Link href="/navbars">
             <Link to='/Gallery'>Gallery</Link> 
           </Navbar.Link>
+<<<<<<< HEAD
+          
+=======
+>>>>>>> aa406a7ca46ece2a87c22088b0b84580ab9e10e1
           <Navbar.Link href="/navbars">
             <Link to="/Contact">Contact</Link>
           </Navbar.Link>
+          
           <Navbar.Link href="/navbars">
             <Link to="/about"> About</Link>
           </Navbar.Link>
