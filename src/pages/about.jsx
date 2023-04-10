@@ -15,7 +15,7 @@ const stats = [
 export default function About() {
   return (
     <>
-
+<div class="bg-cover bg-center" style={{backgroundImage: `url("./images/about_bg.jpg") ` }}>
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 "  >
         <img
           src="./images/about_logo.jpg"
@@ -131,6 +131,7 @@ export default function About() {
           </p>
         </div>
       </div>
+</div>
     </>
   )
 }
