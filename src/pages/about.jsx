@@ -15,12 +15,12 @@ const stats = [
 export default function About() {
   return (
     <>
-<div class="bg-cover bg-center" style={{backgroundImage: `url("./images/about_bg.jpg") ` }}>
+<div class="bg-cover bg-center shadow-2xl m-2" >
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 "  >
         <img
           src="./images/about_logo.jpg"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center bg-opacity-20"
         />
         <svg
           viewBox="0 0 1097 845"

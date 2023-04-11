@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-    <div className='mt-12'>
-    <section class="bg-cover bg-center" style={{backgroundImage: `url("./images/about_bg.jpg") ` }}>
+    <div className='m-12'>
+    <section class="shadow-2xl bg-opacity-60" >
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a href="/Gallery" class="inline-flex justify-between items-center py-3 px-3 pr-4 mb-7 text-lg text-gray-900 bg-cyan-200 rounded-full dark:bg-gray-800 dark:text-white hover:bg-cyan-100 dark:hover:bg-gray-700" role="alert"> 
             <p className=''>New Products</p>
