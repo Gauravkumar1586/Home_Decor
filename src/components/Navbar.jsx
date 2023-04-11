@@ -28,7 +28,7 @@ export default function Flownavbar() {
       <Navbar
         fluid={true}
         rounded={true}
-        className="bg-gray-100 bg-opacity-30"
+        className="bg-gray-100 bg-opacity-30 shadow-2xl"
       >
         <Navbar.Brand href="/home">
         {/*using react icons */}
@@ -38,10 +38,10 @@ export default function Flownavbar() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button className="px-5 mr-4 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_signup}>
+          <Button className="shadow-2xl bg-opacity-90 px-5 mr-4 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_signup}>
             <span>Sign up</span>
           </Button>
-          <Button className="px-5 mr-6 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_login}>
+          <Button className="shadow-2xl bg-opacity-90 px-5 mr-6 bg-slate-900	background-color: rgb(75 85 99);" onClick={routeChange_login}>
             <span>Log in</span>
           </Button>
           <Navbar.Toggle />

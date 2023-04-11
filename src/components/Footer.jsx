@@ -4,7 +4,7 @@ import {TbArmchair} from 'react-icons/tb';
 export default function Flowfooter(){
     return(
         <>
-<Footer container={true} className="bg-gray-100 bg-opacity-30 " >
+<Footer container={true} className="bg-gray-100 bg-opacity-30 shadow-2xl" >
   <div className="w-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
     <div className="flex justify-between sm:flex sm:items-center sm:justify-between">
