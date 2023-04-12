@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import {HiOutlineShoppingCart } from 'react-icons/hi';
 import {TbArmchair} from 'react-icons/tb';
+import Cart from "../pages/Cart";
 
 
 
@@ -53,18 +54,20 @@ export default function Flownavbar() {
           >
             <Link to="/home"> Home </Link>
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
+          <Navbar.Link href="/Gallery">
             <Link to='/Gallery'>Gallery</Link> 
           </Navbar.Link>
-          <Navbar.Link href="/navbars">
+          <Navbar.Link href="/Contact">
             <Link to="/Contact">Contact</Link>
           </Navbar.Link>
           
-          <Navbar.Link href="/navbars">
+          <Navbar.Link href="/about">
             <Link to="/about"> About</Link>
           </Navbar.Link>
           <Navbar.Link href="/navbars">
+            <Link to="/cart">
             <HiOutlineShoppingCart size='2rem'></HiOutlineShoppingCart>
+             </Link>
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

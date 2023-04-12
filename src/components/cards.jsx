@@ -1,16 +1,15 @@
-import { Card } from "flowbite-react";
 
 
 export default function Flowcards(props) {
   return (
     <>
 
-    <div className="drop-shadow-lg mt-6 mb-6 transition ease-in-out delay-150 bg-white border-solid  hover:scale-110  hover:border-black duration-300 rounded-lg ">
+    <div className=" drop-shadow-lg mt-6 mb-6 transition ease-in-out delay-150 bg-white border-solid  hover:scale-110  hover:border-black duration-300 rounded-lg ">
       <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img class="rounded-t-lg h-64 " src={props.imgurl} alt="" style={{width:'100%'}} />
         </a>
-        <div class="p-5">
+        <div class="p-5 ">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
           </a>
