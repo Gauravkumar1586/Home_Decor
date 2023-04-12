@@ -17,7 +17,7 @@ export default function Home() {
       
         <div className="flex justify-evenly flex-wrap ">
 
-       
+          
           <Flowcards
             title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"

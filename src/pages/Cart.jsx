@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { MdRemoveCircle, MdAddCircle } from 'react-icons/md';
 import { mobile } from '../responsive';
-import { useCart } from 'react-use-cart';
+
 
 const Container = styled.div``;
 const Wrapper = styled.div`
@@ -199,25 +199,6 @@ const Cart = ( props ) => {
                     <MdRemoveCircle size='2rem'></MdRemoveCircle>
                   </ProductAmountContainer>
                   <ProductPrice>{props.price}</ProductPrice>
-                </PriceDetail>
-               
-              </Product>
-              {/*2 product */}
-              <Product>
-                <ProductDetail>
-                  <Image src="./images/chairs/c1.jpg" />
-                  <Details>
-                    <ProductName><b>Product:</b>Wooden Chairs</ProductName>
-                    <ProductId><b>Id:</b>35435655</ProductId>
-                  </Details>
-                </ProductDetail>
-                <PriceDetail>
-                  <ProductAmountContainer>
-                    <MdAddCircle size='2rem'></MdAddCircle>
-                    <ProductAmount>3</ProductAmount>
-                    <MdRemoveCircle size='2rem'></MdRemoveCircle>
-                  </ProductAmountContainer>
-                  <ProductPrice>₹ 5000</ProductPrice>
                 </PriceDetail>
               </Product>
             </Info>
