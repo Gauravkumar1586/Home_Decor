@@ -2,9 +2,12 @@ import Flowcards from "../components/cards";
 import Flowcrousel from "../components/crousel";
 import Hero from "../components/Hero";
 
+
+
 export default function Home() {
   return (
     <>
+
       <Flowcrousel></Flowcrousel>
       <Hero></Hero>
       <h1 className="text-6xl mt-4 text-center overscroll-auto">
@@ -13,6 +16,8 @@ export default function Home() {
 
       
         <div className="flex justify-evenly flex-wrap ">
+
+       
           <Flowcards
             title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
@@ -53,8 +58,8 @@ export default function Home() {
           imgurl="./images/lights/l0.jpg"
           desc="Crafted from steel in a matte black finish, this chandelier features a  silhouette with an open-frame style. "
           price="₹ 4000"
-        ></Flowcards>
-        </div>
+  ></Flowcards>
+  </div>
       
     </>
   );

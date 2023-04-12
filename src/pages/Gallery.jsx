@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Flowcards from '../components/cards';
 
+
 import { Card } from 'flowbite-react';
 
 const Gallery = () => {
@@ -24,6 +25,7 @@ const Gallery = () => {
       {furniturecategory == 0 &&
         <div className="flex justify-evenly flex-wrap ">
 
+       
           <Flowcards
             title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
@@ -235,7 +237,7 @@ const Gallery = () => {
           imgurl="./images/tables/t10.jpg"
           desc=" This coffee table showcases a modern openwork frame with sophisticated dark hues. "
           price="₹ 5600"
-        ></Flowcards>
+      ></Flowcards>
         </div>
       }
 

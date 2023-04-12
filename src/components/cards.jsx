@@ -1,9 +1,12 @@
-
+import { useCart } from 'react-use-cart';
 
 export default function Flowcards(props) {
+
+  const {addItem} = useCart();
+  
   return (
     <>
-
+    
     <div className=" drop-shadow-lg mt-6 mb-6 transition ease-in-out delay-150 bg-white border-solid  hover:scale-110  hover:border-black duration-300 rounded-lg ">
       <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
