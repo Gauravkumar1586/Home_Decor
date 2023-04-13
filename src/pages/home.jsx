@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex justify-evenly flex-wrap ">
 
           
-          <Flowcards
+         {/* <Flowcards
             title="Good Quality Beds"
             imgurl="./images/beds/b0.jpg"
             desc="Designed to give you sleep that hits that sweet spot between perfectly cool and incredibly cozy.  "
@@ -58,7 +58,7 @@ export default function Home() {
           imgurl="./images/lights/l0.jpg"
           desc="Crafted from steel in a matte black finish, this chandelier features a  silhouette with an open-frame style. "
           price="₹ 4000"
-  ></Flowcards>
+  ></Flowcards>*/}
   </div>
       
     </>

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { MdRemoveCircle, MdAddCircle } from 'react-icons/md';
 import { mobile } from '../responsive';
+import { useCart } from 'react-use-cart';
 
 
 const Container = styled.div``;

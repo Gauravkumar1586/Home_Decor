@@ -1,3 +1,5 @@
+import { useContext } from "react"
+import GalleryContext from "../Context/GalleryContext"
 
 const links = [
   { name: 'Open roles', href: '#' },
@@ -13,6 +15,8 @@ const stats = [
 ]
 
 export default function About() {
+  const cartnumber = useContext(GalleryContext);
+  const {cart}=cartnumber
   return (
     <>
 <div class="bg-cover bg-center shadow-2xl m-2" >
@@ -132,6 +136,7 @@ export default function About() {
         </div>
       </div>
 </div>
+
     </>
   )
 }

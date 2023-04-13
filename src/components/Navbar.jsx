@@ -65,7 +65,7 @@ export default function Flownavbar() {
             <Link to="/about"> About</Link>
           </Navbar.Link>
           <Navbar.Link href="/navbars">
-            <Link to="/cart">
+            <Link to="/Cart">
             <HiOutlineShoppingCart size='2rem'></HiOutlineShoppingCart>
              </Link>
           </Navbar.Link>
