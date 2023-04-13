@@ -1,6 +1,7 @@
 import Flowcards from "../components/cards";
 import Flowcrousel from "../components/crousel";
 import Hero from "../components/Hero";
+import data from "./data";
 
 
 
@@ -17,6 +18,17 @@ export default function Home() {
       
         <div className="flex justify-evenly flex-wrap ">
 
+        {data.productData.map((items,index)=>{
+          return(
+            <Flowcards imgurl={items.imgurl}
+                       title={items.title}
+                       desc={items.desc}
+                       price={items.price}
+                       item={items}
+                       key={index}
+            ></Flowcards>           
+          )
+        })}
           
          {/* <Flowcards
             title="Good Quality Beds"
