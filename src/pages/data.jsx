@@ -46,7 +46,65 @@ import t5 from '../images/tables/t5.jpg';
 import l0 from '../images/lights/l0.jpg';
 
 const data= {
+    homeCardsData:[
+        {
+            id:5,
+            imgurl: b4,
+            title: 'Beds',
+            desc: 'This is good quality bed',
+            price :5000,
+        },
+        {
+            id:19,
+            imgurl: ss5,
+            title: 'Single sofas',
+            desc: 'This is good quality sofa',
+            price :3000,
+        },
+        {
+            id:13,
+            imgurl: c5,
+            title: 'Chairs',
+            desc: 'This is good quality chairs',
+            price :2000,
+        },
+        {
+            id:17,
+            imgurl: ss3,
+            title: 'Single sofas',
+            desc: 'This is good quality sofa',
+            price :3000,
+        },
+        {
+            id:28,
+            imgurl: t2,
+            title: 'Tables',
+            desc: 'This is good quality tables',
+            price :2000,
+        },
+        {
+            id:1,
+            imgurl: b0,
+            title: 'Bet set',
+            desc: 'This is good quality bed',
+            price :5000,
+        },
+        {
+            id:10,
+            imgurl: c2,
+            title: 'Chairs',
+            desc: 'This is good quality chairs',
+            price :2000,
+        },
+        {
+            id:23,
+            imgurl: s3,
+            title: 'Single sofas',
+            desc: 'This is good quality sofa',
+            price :3000,
+        },
 
+    ],
     productData:[
         {
             id:25,
