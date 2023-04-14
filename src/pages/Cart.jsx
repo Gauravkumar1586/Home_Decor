@@ -2,7 +2,7 @@ import React from "react";
 import { useCart } from "react-use-cart";
 import { useNavigate } from "react-router-dom";
 import { MdRemoveCircle, MdAddCircle } from "react-icons/md";
-import {BiRupee} from "react-icons/bi";
+
 
 
 
