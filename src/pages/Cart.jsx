@@ -5,7 +5,11 @@ import { MdRemoveCircle, MdAddCircle } from "react-icons/md";
 import {BiRupee} from "react-icons/bi";
 
 
+
 const Cart = () => {
+
+  
+
   let Navigate = useNavigate();
   const {
     isEmpty,
@@ -19,7 +23,7 @@ const Cart = () => {
   } = useCart();
   if (isEmpty)
     return (
-      <h1 className="   text-center text-2xl font-bold text-gray-900 dark:text-white">
+      <h1 className="   text-center text-2xl font-bold text-red-800 dark:text-white">
         Your Cart is Empty
       </h1>
     );
@@ -28,14 +32,16 @@ const Cart = () => {
       <div className="">
         <div className="container-md">
           <div className="flex justify-around">
-            <h5 className="text-center text-3xl font-bold text-gray-900 dark:text-white m-4 p-3"style={{border:'double'}}> Unique Items : ({totalUniqueItems})</h5>
-            <h5 className="text-center text-3xl font-bold text-gray-900 dark:text-white m-4 p-3"style={{border:'double'}}> Total Items : ({totalItems})</h5>
+            <h5 className="text-center text-3xl font-bold text-gray-800 dark:text-white m-4 p-3"style={{border:'double',borderColor:'gray',borderWidth:'thick'}}> Unique Items : ({totalUniqueItems})</h5>
+            <h5 className="text-center text-3xl font-bold text-gray-800 dark:text-white m-4 p-3"style={{border:'double',borderColor:'gray',borderWidth:'thick'}}> Total Items : ({totalItems})</h5>
           </div>
           <div class="d-flex justify-content-around">
             <div class="flex-row  justify-evenly">
               {items.map((items, index) => {
                 return (
+      
                   <tr key={index}>
+                  <hr style={{borderTop:'2px solid gray'}}></hr>
                 <div className="flex justify-around"> {/*css for product content */}
                     <img
                       className="mx-10 my-4 rounded-xl"
@@ -44,6 +50,7 @@ const Cart = () => {
                         width: "400px",
                         height: "300px",
                         border: "solid",
+                        borderColor: "black",
                       }}
                     />
                     
@@ -52,14 +59,14 @@ const Cart = () => {
                     <p className="ml-4 text-3xl font-bold text-gray-900 dark:text-white mt-1">
                       {items.title}
                     </p>
-                    <h1 className="ml-4 text-2xl font-bold text-gray-900 dark:text-white ">
+                    <h1 className="ml-4 text-2xl font-bold text-red-800 dark:text-white ">
                       Price : ₹({items.price})
                     </h1>
                     <p className="ml-4 text-1xl font-bold text-gray-900 dark:text-white mt-1">
                       {items.desc}
                     </p>
 
-                    <div class=" flex justify-items-center">
+                    <span class=" flex justify-items-center">
                       <button
                         className="ml-4 rounded-lg w-8 m-2 font-bold"
                         onClick={() =>
@@ -68,7 +75,7 @@ const Cart = () => {
                       >
                         <MdRemoveCircle size="2rem"></MdRemoveCircle>
                       </button>
-                      <h2 className=" mt-3 mx-4 text-1xl font-bold text-gray-900 dark:text-white">
+                      <h2 className=" mt-3 mx-4 text-2xl font-bold text-gray-900 dark:text-white">
                         {" "}
                         {items.quantity}
                       </h2>
@@ -78,39 +85,42 @@ const Cart = () => {
                           updateItemQuantity(items.id, items.quantity + 1)
                         }
                       >
-                        <MdAddCircle size="2rem"></MdAddCircle>
+                        <MdAddCircle size="2rem" ></MdAddCircle>
                       </button>
                       <button
-                        className=" bg-cyan-900 hover:bg-cyan-400 text-blue-50 rounded-lg m-3 ml-4 mt-2 w-28 h-9"
+                        className=" bg-gray-900 hover:bg-red-800 text-blue-50 rounded-lg m-3 ml-4 mt-2 w-28 h-9"
                         onClick={() => removeItem(items.id)}
                       >
                         Remove
                       </button>
-                      </div>
+                      </span>
                       </div>
                     </div>
-
+                   
                   </tr>
                 );
               })}
             </div>
           </div>
         </div>
+        
         <div className="grid justify-items-center" style={{border:'solid'}}>
+        <h2 className="mt-2 mb-16 text-3xl font-bold text-gray-900 dark:text-white underline">ORDER SUMMARY</h2>
+       
         <div className="">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Total Price : ₹ {cartTotal}
+          <h2 className="text-3xl font-bold text-red-800 dark:text-white">
+            Total Price : ₹ {cartTotal} 
           </h2>
         </div>
         <div className="col-auto ">
           <button
-            className="bg-gray-900 m-2 text-white rounded-lg w-28 h-10"
+            className="bg-gray-900 hover:bg-red-800 m-2 text-white rounded-lg w-28 h-10"
             onClick={() => emptyCart()}
           >
             Clear Cart
           </button>
           <button
-            className="bg-gray-900 m-2 text-white rounded-lg w-28 h-10"
+            className="bg-gray-900 hover:bg-green-500 m-2 text-white rounded-lg w-28 h-10"
             onClick={() => {
               Navigate("/order");
             }}
