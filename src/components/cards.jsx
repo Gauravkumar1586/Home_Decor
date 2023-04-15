@@ -9,7 +9,7 @@ export default function Flowcards(props) {
   return (
     <>
     
-    <div className=" drop-shadow-lg mt-6 mb-6 transition ease-in-out delay-110 bg-white border-solid  hover:scale-110  hover:border-black duration-170 rounded-lg ">
+    <div className=" drop-shadow-xl shadow-indigo-500/50 mt-6 mb-6 transition ease-in-out delay-110 bg-white border-solid  hover:scale-110  hover:border-black duration-170 rounded-lg ">
       <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img class="rounded-t-lg " src={props.imgurl} alt="" style={{width:'330px' , height:'300px'}} />

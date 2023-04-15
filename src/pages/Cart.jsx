@@ -42,7 +42,7 @@ const Cart = () => {
       
                   <tr key={index}>
                   <hr style={{borderTop:'2px solid gray'}}></hr>
-                <div className="flex justify-around"> {/*css for product content */}
+                <div className="flex justify-around drop-shadow-2xl bg-indigo-500 shadow-xl shadow-indigo-500/50 bg-opacity-20"> {/*css for product content */}
                     <img
                       className="mx-10 my-4 rounded-xl"
                       src={items.imgurl}

@@ -11,8 +11,9 @@ const PaymentDetails = () => {
   }
     return (
         <>
-            <div className=' my-10 p-4 bg-gray-100 dark:bg-gray-900 drop-shadow-2xl bg-opacity-30 border-solid' style={{marginLeft:'500px',marginRight:'500px' , height:'800px'}} >
-                <form>
+            <div className=' my-10 p-4  dark:bg-gray-900 drop-shadow-2xl bg-indigo-500 shadow-xl shadow-indigo-500/50 bg-opacity-20 border-solid' style={{marginLeft:'500px',marginRight:'500px' , height:'600px',width:'600px'}} >
+                <h2 className='flex justify-center text-2xl'>Enter Shipping Details </h2>
+                <form className='mt-10'>
                     <div class="relative z-0 w-full mb-6 group">
                         <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                         <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-900 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>

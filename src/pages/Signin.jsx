@@ -10,7 +10,7 @@ export default function Signin() {
     component for styling purposes, and the inputs are wrapped in divs with some classes for layout.
   The component exports a default function called Signin. */}
 
-      <section class="bg-gray-100 dark:bg-gray-900 drop-shadow-2xl bg-opacity-40">
+      <section class=" dark:bg-gray-900 drop-shadow-2xl bg-indigo-500 shadow-xl shadow-indigo-500/50 bg-opacity-30">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
           <div class="flex flex-col justify-center">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Create your account to Enjoy Shopping </h1>
