@@ -35,7 +35,7 @@ const Cart = () => {
             <h5 className="text-center text-3xl font-bold text-gray-800 dark:text-white m-4 p-3"style={{border:'double',borderColor:'gray',borderWidth:'thick'}}> Unique Items : ({totalUniqueItems})</h5>
             <h5 className="text-center text-3xl font-bold text-gray-800 dark:text-white m-4 p-3"style={{border:'double',borderColor:'gray',borderWidth:'thick'}}> Total Items : ({totalItems})</h5>
           </div>
-          <div class="d-flex justify-content-around">
+          <div className="flex justify-center">
             <div class="flex-row  justify-evenly">
               {items.map((items, index) => {
                 return (
