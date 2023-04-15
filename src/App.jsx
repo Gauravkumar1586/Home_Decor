@@ -10,7 +10,8 @@ import Signin from './pages/Signin'
 import Login from './pages/Login'
 import Gallery from './pages/Gallery'
 import Cart from './pages/Cart'
-
+import PaymentDetails from './pages/PaymentDetails'
+import PaymentGate from './pages/PaymentGate'
 
 
 
@@ -32,6 +33,8 @@ function App() {
           <Route path="/Login" element={<Login/>}></Route>
           <Route path="/Gallery" element={<Gallery/>}></Route>
           <Route path="/Cart" element={<Cart/>}></Route>
+          <Route path='/PaymentDetails' element={<PaymentDetails/>}></Route>
+          <Route path='/PaymentGate' element={<PaymentGate/>}></Route>
         </Routes>
         <Flowfooter ></Flowfooter>
       </BrowserRouter>

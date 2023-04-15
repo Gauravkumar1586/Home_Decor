@@ -114,15 +114,15 @@ const Cart = () => {
         </div>
         <div className="col-auto ">
           <button
-            className="bg-gray-900 hover:bg-red-800 m-2 text-white rounded-lg w-28 h-10"
+            className="bg-gray-900 hover:bg-red-800  m-2 text-white rounded-lg w-28 h-10"
             onClick={() => emptyCart()}
           >
             Clear Cart
           </button>
           <button
-            className="bg-gray-900 hover:bg-green-500 m-2 text-white rounded-lg w-28 h-10"
+            className="bg-gray-900 hover:bg-green-500 hover:text-black m-2 text-white rounded-lg w-28 h-10"
             onClick={() => {
-              Navigate("/order");
+              Navigate("/PaymentDetails");
             }}
           >
             Buy Now
