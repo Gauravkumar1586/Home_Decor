@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <>
 
-     <div class="transition ease-in-out delay-150 hover:scale-110  hover:border-black duration-300 rounded-lg flex items-center justify-center py-4 md:py-8 flex-wrap">
+     <div class="transition ease-in-out delay-150 hover:scale-110  hover:border-black duration-300 rounded-lg flex items-center justify-center py-4 md:py-8 flex-wrap bg-indigo-500 shadow-xl shadow-indigo-500/50 bg-opacity-25 mt-5 mx-24">
         <button type="button" onClick={() => { setfurniturecategory(0) }} class="text-gray-900 hover:text-white border border-blue-600 bg-white hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-slate-900 dark:bg-gray-900 dark:focus:ring-blue-800" >All categories</button>
         <button type="button" onClick={() => { setfurniturecategory(1) }} class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-gray-800" > Beds</button>
         <button type="button" onClick={() => { setfurniturecategory(2) }} class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-gray-800">Chairs</button>
