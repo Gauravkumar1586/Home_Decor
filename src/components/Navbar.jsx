@@ -6,10 +6,15 @@ import { useNavigate } from "react-router-dom";
 import {HiOutlineShoppingCart } from 'react-icons/hi';
 import {TbArmchair} from 'react-icons/tb';
 import Cart from "../pages/Cart";
+import { useCart } from "react-use-cart";
 
 
 
 export default function Flownavbar() {
+
+  
+  const {totalItems} = useCart();
+
   
   {/*function for signin page */}
   let navigate_signup = useNavigate(); 
@@ -66,7 +71,9 @@ export default function Flownavbar() {
           </Navbar.Link>
           <Navbar.Link href="/navbars">
             <Link to="/Cart">
-            <HiOutlineShoppingCart size='2rem'></HiOutlineShoppingCart>
+              <div className="flex ">
+                <span><HiOutlineShoppingCart size='2rem'></HiOutlineShoppingCart></span><span className=" text-sm  align-text-top text-center mt-0 h-6 w-7 mx-1 p-1 bg-red-400  text-blue-900 rounded-full ">{totalItems}</span>
+              </div>
              </Link>
           </Navbar.Link>
         </Navbar.Collapse>
