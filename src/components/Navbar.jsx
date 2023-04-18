@@ -39,7 +39,7 @@ export default function Flownavbar() {
         <Navbar.Brand href="/home">
         {/*using react icons */}
           <TbArmchair size='3rem'></TbArmchair>
-          <span className=" font-mono text-5xl self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span className=" font-mono self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           HOME DECOR
           </span>
         </Navbar.Brand>

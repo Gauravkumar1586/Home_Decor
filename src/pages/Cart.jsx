@@ -36,11 +36,11 @@ const Cart = () => {
             <h5 className="text-center text-3xl font-bold text-gray-800 dark:text-white m-4 p-3"style={{border:'double',borderColor:'gray',borderWidth:'thick'}}> Total Items : ({totalItems})</h5>
           </div>
           <div className="flex justify-center">
-            <div class="flex-row  justify-evenly">
+            <div className="flex-row  justify-evenly">
               {items.map((items, index) => {
                 return (
       
-                  <tr key={index}>
+                  <div key={index}>
                   <hr style={{borderTop:'2px solid gray'}}></hr>
                 <div className="flex justify-around drop-shadow-2xl bg-indigo-500 shadow-xl shadow-indigo-500/50 bg-opacity-20"> {/*css for product content */}
                     <img
@@ -66,7 +66,7 @@ const Cart = () => {
                       {items.desc}
                     </p>
 
-                    <span class=" flex justify-items-center">
+                    <span className=" flex justify-items-center">
                       <button
                         className="ml-4 rounded-lg w-8 m-2 font-bold"
                         onClick={() =>
@@ -97,7 +97,7 @@ const Cart = () => {
                       </div>
                     </div>
                    
-                  </tr>
+                  </div>
                 );
               })}
             </div>
